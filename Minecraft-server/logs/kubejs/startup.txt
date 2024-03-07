@@ -1,0 +1,7 @@
+[21:11:22] [INFO ] Loaded script startup_scripts:customMekanism.js in 0.217 s
+[21:11:22] [INFO ] Hello, World! (You will only see this line once in console, during startup)
+[21:11:22] [INFO ] Loaded script startup_scripts:script.js in 0.017 s
+[21:11:22] [INFO ] Loaded script startup_scripts:custom_stuff.js in 0.001 s
+[21:11:22] [INFO ] Loaded script startup_scripts:worldgen.js in 0.002 s
+[21:11:22] [INFO ] Loaded 4/4 KubeJS startup scripts in 1.401 s
+[21:11:23] [WARN ] Class filter is disabled!

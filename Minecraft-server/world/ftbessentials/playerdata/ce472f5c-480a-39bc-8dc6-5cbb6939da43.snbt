@@ -1,0 +1,19 @@
+{
+	muted: false
+	fly: false
+	god: false
+	nick: ""
+	name: "Juanfri031"
+	last_seen: { dim: "minecraft:overworld", x: 4092, y: 65, z: 4072, time: 1709683656165L }
+	recording: 0
+	teleport_history: [
+		{ dim: "minecraft:overworld", x: 4115, y: 66, z: 4094, time: 1709346796533L }
+		{ dim: "minecraft:overworld", x: 4088, y: 65, z: 4104, time: 1709348104027L }
+		{ dim: "minecraft:overworld", x: 4102, y: 66, z: 4087, time: 1709349043080L }
+		{ dim: "minecraft:overworld", x: 4115, y: 65, z: 4121, time: 1709388704226L }
+		{ dim: "minecraft:overworld", x: 4097, y: 65, z: 4162, time: 1709564700548L }
+		{ dim: "minecraft:overworld", x: 4108, y: 65, z: 4095, time: 1709571921599L }
+		{ dim: "minecraft:the_nether", x: 507, y: -397, z: 512, time: 1709661226010L }
+	]
+	homes: { }
+}

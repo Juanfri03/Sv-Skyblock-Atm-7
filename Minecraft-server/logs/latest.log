@@ -1,0 +1,32 @@
+[06Mar2024 00:00:13.200] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Juanfri031: Set own game mode to Creative Mode]
+[06Mar2024 00:00:19.109] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Juanfri031: Set own game mode to Survival Mode]
+[06Mar2024 00:07:28.907] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Juanfri031: Saved the game]
+[06Mar2024 00:07:34.024] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Juanfri031: Saved the game]
+[06Mar2024 00:07:36.088] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Juanfri031: Stopping the server]
+[06Mar2024 00:07:36.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[06Mar2024 00:07:36.150] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[06Mar2024 00:07:36.164] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Juanfri031 lost connection: Server closed
+[06Mar2024 00:07:36.165] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Juanfri031 left the game
+[06Mar2024 00:07:36.178] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[06Mar2024 00:07:36.720] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[06Mar2024 00:07:50.058] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[06Mar2024 00:07:50.059] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/allthemodium:the_other
+[06Mar2024 00:07:50.060] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/bloodmagic:dungeon
+[06Mar2024 00:07:50.061] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[06Mar2024 00:07:50.062] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/compactmachines:compact_world
+[06Mar2024 00:07:50.062] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/mythicbotany:alfheim
+[06Mar2024 00:07:50.063] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/allthemodium:mining
+[06Mar2024 00:07:50.063] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/twilightforest:twilight_forest
+[06Mar2024 00:07:50.092] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ae2:spatial_storage
+[06Mar2024 00:07:50.269] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[06Mar2024 00:07:50.270] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[06Mar2024 00:07:50.273] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (the_other): All chunks are saved
+[06Mar2024 00:07:50.274] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dungeon): All chunks are saved
+[06Mar2024 00:07:50.274] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[06Mar2024 00:07:50.274] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (compact_world): All chunks are saved
+[06Mar2024 00:07:50.274] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (alfheim): All chunks are saved
+[06Mar2024 00:07:50.274] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (mining): All chunks are saved
+[06Mar2024 00:07:50.274] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (twilight_forest): All chunks are saved
+[06Mar2024 00:07:50.276] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (spatial_storage): All chunks are saved
+[06Mar2024 00:07:50.276] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[06Mar2024 00:07:50.645] [Server thread/INFO] [FTB Chunks/]: Shutting down map thread

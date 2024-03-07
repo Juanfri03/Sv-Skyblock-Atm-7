@@ -1,0 +1,4 @@
+#Most configs are moved to /serverconfig/fluxnetworks-server.toml
+#Copy to /defaultconfig/fluxnetworks-server.toml for modpacks
+placeholder = true
+

@@ -1,0 +1,17 @@
+{
+	muted: false
+	fly: false
+	god: false
+	nick: ""
+	name: "bananita302"
+	last_seen: { dim: "minecraft:overworld", x: 4132, y: 65, z: 4075, time: 1709668157402L }
+	recording: 0
+	teleport_history: [
+		{ dim: "minecraft:overworld", x: 4089, y: 65, z: 4091, time: 1709349018625L }
+		{ dim: "minecraft:overworld", x: 4119, y: 65, z: 4079, time: 1709496886007L }
+		{ dim: "minecraft:overworld", x: 4129, y: 65, z: 4061, time: 1709572999969L }
+		{ dim: "minecraft:the_nether", x: 251, y: 68, z: 566, time: 1709654877942L }
+		{ dim: "minecraft:the_nether", x: 251, y: 68, z: 566, time: 1709654877962L }
+	]
+	homes: { }
+}

@@ -1,0 +1,11 @@
+{
+	muted: false
+	fly: false
+	god: false
+	nick: ""
+	name: "Lurken"
+	last_seen: { dim: "minecraft:overworld", x: 4106, y: 65, z: 4077, time: 1709678412599L }
+	recording: 0
+	teleport_history: [ ]
+	homes: { }
+}

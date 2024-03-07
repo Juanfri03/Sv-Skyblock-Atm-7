@@ -1,0 +1,229 @@
+#Determines whether Reliquary items will be generated in chest loot (mostly mob drops, very rarely some lower level items)
+chestLootEnabled = true
+#Determines wheter Reliquary mob drops have crafting recipes
+dropCraftingRecipesEnabled = false
+#Whether mobs drop the Reliquary mob drops. This won't remove mob drop items from registry and replace them with something else, but allows to turn off the additional drops when mobs are killed by player. If this is turned off the mob drop crafting recipes turned on by the other setting can be used.
+mobDropsEnabled = true
+
+#Disable sections of the mod
+[disable]
+	#Disable Alkahestry tome and its recipes
+	alkahestryTome = false
+	#Disable the HANDGUN, bullets, magazines, and gun parts
+	handgun = false
+	#Disable the POTION system including mortar, altar, potions, tipped arrows, and powder
+	potion = false
+	#Disable all pedestals
+	pedestal = false
+	#Disable all display-only pedestals
+	passivePedestal = false
+	#Disable recipes to craft spawn eggs from fragments
+	disableSpawnEggRecipes = false
+
+#Potions related settings
+[potions]
+	#Map of POTION ingredients and their effects
+	potionMap = []
+	#Maximum number of effects a POTION can have to appear in creative tabs / JEI
+	#Range: 1 ~ 6
+	maxEffectCount = 1
+	#Whether potions that are made out of three base ingredients appear in creative tabs / JEI
+	threeIngredients = false
+	#Whether potions with the same effect combination, but different duration appear in creative tabs / JEI
+	differentDurations = false
+	#Whether potions augmented with Redstone and Glowstone appear in creative tabs / JEI
+	redstoneAndGlowstone = false
+
+[items]
+
+	#Alkahestry Tome settings
+	[items.alkahestryTome]
+		#Charge limit of the tome
+		#Range: 0 ~ 9999
+		chargeLimit = 1000
+
+	#Angelic Feather settings
+	[items.angelicFeather]
+		#Percent hunger used to heal player per 1 damage that would be taken otherwise.
+		#Range: 0 ~ 100
+		hungerCostPercent = 50
+		#Potency of the leaping effect
+		#Range: 0 ~ 5
+		leapingPotency = 1
+
+	#Angelheart Vial settings
+	[items.angelheartVial]
+		#Percent of life that gets healed when the player would die
+		#Range: 0 ~ 100
+		healPercentageOfMaxLife = 25
+		#Whether the player gets negative statuses removed
+		removeNegativeStatus = true
+
+	#Destruction Catalyst settings
+	[items.destructionCatalyst]
+		#List of mundane blocks the catalyst will break
+		mundaneBlocks = ["minecraft:dirt", "minecraft:coarse_dirt", "minecraft:podzol", "minecraft:mycelium", "minecraft:grass_block", "minecraft:gravel", "minecraft:cobblestone", "minecraft:stone", "minecraft:granite", "minecraft:diorite", "minecraft:andesite", "minecraft:sand", "minecraft:sandstone", "minecraft:snow", "minecraft:soul_sand", "minecraft:netherrack", "minecraft:end_stone"]
+		#Number of gunpowder it costs per catalyst use
+		#Range: 0 ~ 10
+		gunpowderCost = 3
+		#Number of gunpowder that gets added to catalyst per one that's consumed from players inventory
+		#Range: 1 ~ 3
+		gunpowderWorth = 1
+		#Number of gunpowder that can be stored in destruction catalyst
+		#Range: 0 ~ 9999
+		gunpowderLimit = 250
+		#Radius of the explosion
+		#Range: 1 ~ 5
+		explosionRadius = 1
+		#Whether the explosion is centered on the block that gets clicked
+		centeredExplosion = false
+		#Whether the explosion makes a perfect cube hole
+		perfectCube = true
+
+	#Emperor Chalice settings
+	[items.emperorChalice]
+		#How much saturation is added in addition to filling the hunger
+		#Range: 0 ~ 10
+		hungerSatiationMultiplier = 4
+
+	#Ender Staff settings
+	[items.enderStaff]
+		#Number of ender pearls per use
+		#Range: 0 ~ 3
+		enderPearlCastCost = 1
+		#Number of ender pearls per teleportation to the wraith node
+		#Range: 0 ~ 3
+		enderPearlNodeWarpCost = 1
+		#Number of ender pearls that get added to the staff per one that's consumed from players inventory
+		#Range: 1 ~ 10
+		enderPearlWorth = 1
+		#Number of ender pearls that the ender staff can store
+		#Range: 0 ~ 9999
+		enderPearlLimit = 250
+		#Time it takes to teleport to the wraith node
+		#Range: 10 ~ 120
+		nodeWarpCastTime = 60
+
+	#Fortune Coin settings
+	[items.fortuneCoin]
+		#The distance that it pulls from when activated
+		#Range: 3 ~ 10
+		standardPullDistance = 5
+		#The distance that it pulls from when right click is held
+		#Range: 9 ~ 30
+		longRangePullDistance = 15
+
+	#Glacial Staff settings
+	[items.glacialStaff]
+		#Number of snowballs the staff can hold
+		#Range: 0 ~ 9999
+		snowballLimit = 250
+		#Number of snowballs it costs when the staff is used
+		#Range: 0 ~ 3
+		snowballCost = 1
+		#Number of snowballs that get added to the staff per one that's consumed from player's inventory
+		#Range: 1 ~ 3
+		snowballWorth = 1
+		#The damage that snowballs cause
+		#Range: 0 ~ 6
+		snowballDamage = 3
+		#The damage bonus against entities that are immune to fire
+		#Range: 0 ~ 6
+		snowballDamageBonusFireImmune = 3
+		#The damage bonus against blaze
+		#Range: 0 ~ 12
+		snowballDamageBonusBlaze = 6
+
+	#Handgun settings
+	[items.handgun]
+		#Experience level at which handgun has the fastest reload time and shortes cooldown between shots
+		#Range: 0 ~ 100
+		maxSkillLevel = 20
+
+	#Harvest Rod settings
+	[items.harvestRod]
+		#Number of bonemeal the rod can hold
+		#Range: 0 ~ 9999
+		boneMealLimit = 250
+		#Number of bonemeal consumed per use
+		#Range: 0 ~ 3
+		boneMealCost = 1
+		#Number of bonemeal that gets added to the rod per one that's consumed from player's inventory
+		#Range: 1 ~ 3
+		boneMealWorth = 1
+		#Percent chance that a bonemeal will get applied during a luck roll
+		#Range: 1 ~ 100
+		boneMealLuckPercentChance = 33
+		#Number of times that a rod may apply additional luck based bonemeal
+		#Range: 0 ~ 7
+		boneMealLuckRolls = 2
+		#Radius in which harvest rod breaks crops, bonemeals/plants/hoes blocks
+		#Range: 0 ~ 5
+		aoeRadius = 2
+		#Ticks in between bonemealing/planting/hoeing blocks when player is using one of these AOE actions
+		#Range: 1 ~ 20
+		aoeCooldown = 3
+		#Maximum number of units harvest rod can hold per plantable item
+		#Range: 0 ~ 9999
+		maxCapacityPerPlantable = 250
+		#Range at which harvest rod will automatically hoe/plant/bonemeal/break crops around pedestals
+		#Range: 1 ~ 20
+		pedestalRange = 4
+		#Ticks in between harvest rod actions when in pedestals
+		#Range: 1 ~ 20
+		pedestalCooldown = 5
+
+	#Hero Medallion settings
+	[items.heroMedallion]
+		#Cooldown between hero medallion tries to fix mending items in nearby pedestals
+		#Range: 1 ~ 100
+		pedestalCoolDown = 20
+		#Range in which pedestals are checked for items with mending enchant that need fixing
+		#Range: 1 ~ 20
+		pedestalRange = 5
+		#Maximum amount of xp that is used each time medallion repairs items
+		#Range: 1 ~ 20
+		pedestalRepairStepXP = 5
+
+	#Ice Magus Rod settings
+	[items.iceMagusRod]
+		#Number of snowballs the rod can hold
+		#Range: 0 ~ 9999
+		snowballLimit = 250
+		#Number of snowballs it costs when the rod is used
+		#Range: 0 ~ 3
+		snowballCost = 1
+		#Number of snowballs that get added to the rod per one that's consumed from player's inventory
+		#Range: 1 ~ 3
+		snowballWorth = 1
+		#The damage that snowballs cause
+		#Range: 0 ~ 4
+		snowballDamage = 2
+		#Damage bonus against fire immune mobs
+		#Range: 0 ~ 4
+		snowballDamageBonusFireImmune = 2
+		#Damage bonus against blaze
+		#Range: 0 ~ 8
+		snowballDamageBonusBlaze = 4
+
+	#Infernal Chalice settings
+	[items.infernalChalice]
+		#Percent hunger used to heal player per 1 damage that would be taken otherwise.
+		#Range: 0 ~ 10
+		hungerCostPercent = 1
+		#Millibuckets of lava that the chalice can hold
+		#Range: > 0
+		fluidLimit = 500000
+
+	#Infernal Claws settings
+	[items.infernalClaws]
+		#Percent hunger used to heal player per 1 damage that would be taken otherwise.
+		#Range: 0 ~ 30
+		hungerCostPercent = 5
+
+	#Infernal Tear settings
+	[items.infernalTear]
+		#Whether the infernal tear starts absorbing immediately after it is set to item type
+		absorbWhenCreated = false
+		#List of items that can be consumed by infernal tear with their experience point value
+		entityLootTableList = ["minecraft:emerald|63", "minecraft:sandstone|1", "minecraft:gravel|1", "minecraft:diamond|125", "minecraft:gunpowder|8", "minecraft:nether_star|500", "minecraft:iron_ingot|63", "minecraft:charcoal|2", "minecraft:soul_sand|2", "minecraft:lapis_lazu

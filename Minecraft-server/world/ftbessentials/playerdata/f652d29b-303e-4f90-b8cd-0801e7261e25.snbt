@@ -1,0 +1,11 @@
+{
+	muted: false
+	fly: false
+	god: false
+	nick: ""
+	name: "Juanfri031"
+	last_seen: { dim: "minecraft:overworld", x: 4100, y: 65, z: 8, time: 1709486295027L }
+	recording: 0
+	teleport_history: [ ]
+	homes: { }
+}

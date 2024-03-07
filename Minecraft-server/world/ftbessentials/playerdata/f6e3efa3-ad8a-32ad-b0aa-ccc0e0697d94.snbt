@@ -1,0 +1,11 @@
+{
+	muted: false
+	fly: false
+	god: false
+	nick: ""
+	name: "esporaval"
+	last_seen: { dim: "minecraft:overworld", x: 4102, y: 65, z: 4112, time: 1709590837374L }
+	recording: 0
+	teleport_history: [{ dim: "minecraft:overworld", x: 4073, y: 66, z: 4079, time: 1709586880967L }]
+	homes: { }
+}
